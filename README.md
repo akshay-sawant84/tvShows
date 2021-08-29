@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+
+
+
+
+
+
+Each 
+record should show name, language, genres, runtime, premiered(formatted as 7
+th Jan, 1961), rating, 
+country name & thumbnail(medium). Then name of the show should be clickable and should take the 
+user to the detail URL as below.
+Details URL: http://localhost:3000/tv-shows/details/1929
+This webpage will fetch the details of the tv-show from the API https://api.tvmaze.com/shows/1929 and 
+displays all the information along with the image on the page.
