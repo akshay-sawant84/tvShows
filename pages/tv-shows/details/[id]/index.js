@@ -74,7 +74,7 @@ function ShowDetails() {
               <p>Type : {showData?.type}</p>
               <p>
                 Url :{" "}
-                <a href={showData?.url} target="_blank">
+                <a href={showData?.url} rel="noreferrer" target="_blank">
                   {showData?.url}
                 </a>
               </p>
